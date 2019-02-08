@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+body{
+  background-color: #ffff63;
+  text-align: center;
+}
+h1{
+  font-family: 'Major Mono Display', monospace;
+  letter-spacing: 3px;
+}
+.btn{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 25px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Major Mono Display', monospace;
+  background-color: #ff9933;
+  color: white;
+}
