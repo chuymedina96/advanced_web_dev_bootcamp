@@ -1,0 +1,16 @@
+body{
+  background-color: blue;
+}
+div{
+  background-color: green;
+}
+div:hover{
+  background-color: purple;
+}
+
+h1:hover{
+  color:pink;
+}
+button:hover{
+  color:white;
+}

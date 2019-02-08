@@ -1,0 +1,17 @@
+body{
+  background-color: yellow;
+}
+
+h1:focus{
+  color:pink;
+}
+button:hover{
+  color:white;
+}
+input:focus{
+  color:green;
+}
+button:focus{
+  border-radius: 20px;
+  background-color: yellow;
+}

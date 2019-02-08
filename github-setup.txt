@@ -1,0 +1,11 @@
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C 'your_email@example.com'
+eval '$(ssh-agent -s)'
+nano ~/.ssh/config
+add below to end of ssh configuration file
+
+AddKeysToAgent yes
+ UseKeychain yes
+ IdentityFile ~/.ssh/id_rsa
+
+ssh-add -K ~/.ssh/id_rsa //adding private ssh key to ssh-agent
