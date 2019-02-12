@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
 body{
-  background-color: #ffff63;
+  background-color: #fcd04b;
   text-align: center;
+  color: white;
 }
 h1{
   font-family: 'Major Mono Display', monospace;
   letter-spacing: 3px;
+  font-weight: 300;
 }
 .btn{
   outline: none;
@@ -22,6 +24,17 @@ h1{
   font-size: 15px;
   font-weight: 300;
   font-family: 'Major Mono Display', monospace;
-  background-color: #ff9933;
+  background-color: #efa424;
   color: white;
+  box-shadow: 0 6px #efa424;
+}
+
+.btn:hover{
+  box-shadow: 0 3px #efa424;
+  top: 2px;
+}
+
+.btn:active{
+  box-shadow: 0 0 #efa424; /*or box-shadow: none; */
+  top: 5px;
 }
