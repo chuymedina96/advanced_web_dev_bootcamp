@@ -7,5 +7,28 @@ p{
 }
  .transformed{
    background-color: #34983b;
-   transform: scale(2);
+   transform: scale(2); /*this simple line doubles X and Y dimensions by 2.*/
+   transform-origin: 0 0;
+ }
+ .transformed:hover{
+   background-color: #3281dd;
+   transform: scaleY(8);
+   transform-origin: left top;
+ }
+ .scaleX{
+   transform: scaleX(2);
+   transform-origin: 0 0;
+ }
+ .scaleY{
+   transform: scaleY(2);
+   transform-origin: 0 0;
+ }
+ .scaleXY{
+   transform: scale(5,2); /*scaling the X and the Y*/
+   transform-origin: left top; /*this will scale it from the left top position of the box*/
+ }
+ .scaleXY:hover{
+   transform: scale(10);
+   transform-origin: left top;
+   cursor: pointer;
  }
