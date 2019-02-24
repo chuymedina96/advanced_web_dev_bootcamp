@@ -13,3 +13,9 @@ p{
   border-radius: 100px;
 
 }
+.second-p:hover{
+  background-color: #dbd199;
+  transform: scale(2,5) rotate(75deg);
+  transform-origin: top right;
+  border-radius: 20px;
+}
