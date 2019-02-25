@@ -19,3 +19,8 @@ p{
   transform-origin: top right;
   border-radius: 20px;
 }
+.third-p:hover{
+  cursor: pointer;
+  transform: scale(2) rotate(45deg);
+  transform-origin: top left;
+}
