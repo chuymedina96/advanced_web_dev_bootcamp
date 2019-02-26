@@ -27,13 +27,20 @@ body{
   border-radius: 50px;
 }
 */
-
+.animate{
+  transition-property: transform, background, border-radius;
+  transition-duration: 1s, 1s, 1s;
+  transition-delay: 1s;
+  transition-timing-function: ease-in;
+}
 .animated{
-  transition-property: transform;
-  transition-duration: 2s;
-  transition-delay: 2s;
-  transition-timing-function: steps(6, end);;
+  transition-property: transform, background, border-radius;
+  transition-duration: 1s, 1s, 1s;
+  transition-delay: 1s;
+  transition-timing-function: easeInSine;
 }
 .box:hover{
-  transform: translateX(300px);
+  transform: translate(300px, 450px);
+  background-color: red;
+  border-radius: 100px;
 }
