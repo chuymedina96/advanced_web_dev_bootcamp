@@ -1,26 +1,39 @@
 body{
   background-color: yellow;
+  text-align: center;
 }
-p{
-  background-color: #abffbd;
+.box {
+  background: #9b59b6;
   height: 100px;
   width: 100px;
-}
-.first-p:hover{
-  background-color: #dbd199;
-  transform: scaleX(2) rotate(35deg);
-  transform-origin: top left;
-  border-radius: 100px;
-
-}
-.second-p:hover{
-  background-color: #dbd199;
-  transform: scale(2,5) rotate(75deg);
-  transform-origin: top right;
+  line-height:100px;
+  text-align: center;
+  color: white;
+  font-size: 17px;
   border-radius: 20px;
 }
-.third-p:hover{
-  cursor: pointer;
-  transform: scale(2) rotate(45deg);
+/*
+.animated{
+  transition-property: background, border-radius, transform, transform-origin;
+  transition-duration: 1s, 1s, 1s, 1s;
+  transition-delay: 2s, 0.5s;
+  transition-timing-function: easeInOutBack;
+}
+
+.box:hover {
+  background: #e74c3c;
   transform-origin: top left;
+  transform:scale(2) rotate(45deg);
+  border-radius: 50px;
+}
+*/
+
+.animated{
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-delay: 2s;
+  transition-timing-function: steps(6, end);;
+}
+.box:hover{
+  transform: translateX(300px);
 }

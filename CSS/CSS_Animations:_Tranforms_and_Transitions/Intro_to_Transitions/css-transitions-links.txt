@@ -1,0 +1,3 @@
+easings.net
+https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
+https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay
