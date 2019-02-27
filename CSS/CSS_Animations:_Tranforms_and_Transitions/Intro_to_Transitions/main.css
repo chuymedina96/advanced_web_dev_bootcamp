@@ -28,20 +28,20 @@ body{
 }
 */
 .animate{
-  transition-property:transform, background-color, border-radius;
-  transition-property: background 1.5s ease-in 1;
-  transition-duration: 2s, 2s, 3s;
-  transition-delay: 1s;
-  transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+  transition:
+  transform 2s ease-out 1s,
+  background-color 1.5s linear 2s,
+  border-radius 3s linear 2s;
+  /* 1.Property, duration, timing-function, delay*/
 }
 .animated{
-  transition-property: transform, background, border-radius;
-  transition-duration: 1s, 1s, 1s;
-  transition-delay: 1s;
-  transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+  transition:
+  transform 2s ease-out 1s,
+  background-color 2s ease-in 1s,
+  border-radius 5s ease-in 1s;
 }
 .box:hover{
-  transform: translate(300px, 450px);
-  background-color: red;
+  transform: translateX(450px);
+  background-color: teal;
   border-radius: 100px;
 }
