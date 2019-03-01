@@ -2,3 +2,4 @@ easings.net
 https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
 https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay
 https://matthewlein.com/tools/ceaser
+https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
