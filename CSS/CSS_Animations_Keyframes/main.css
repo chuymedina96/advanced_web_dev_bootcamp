@@ -1,0 +1,36 @@
+/*
+  Key frames
+  basically go from a to b to c to e to
+*/
+
+
+
+body{
+  background-color: yellow;
+}
+h1{
+  text-align: center;
+  margin-top:100px;
+}
+button.myBtn{
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  outline: none;
+  border:none;
+  box-shadow: 0 6px #efa424;
+  font-size: 18px;
+  padding: 25px 80px;
+}
+
+button.myBtn:hover{
+  box-shadow: 0 3px #efa424;
+  top: 2px;
+}
+button.myBtn:active{
+  box-shadow: 0 0 #efa424; /*or box-shadow: none; */
+  top: 5px;
+}
