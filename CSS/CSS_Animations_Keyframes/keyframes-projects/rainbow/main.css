@@ -1,3 +1,33 @@
+.box{
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: purple;
+  color:#fff;
+  font-size: 17px;
+  border-radius: 20px;
+  animation-name: slideRight;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+.box:hover{
+  animation-play-state: paused;
+}
+@keyframes slideRight {
+  100%{
+    transform: translateX(500px);
+  }
+}
+.reverse{
+  animation-direction: reverse;
+}
+.alternate{
+  animation-direction: alternate;
+}
+
+
 p{
   animation-name: rainbowtext;
   animation-duration: 3s;
