@@ -1,0 +1,77 @@
+html {
+  background: #ecf0f1;
+}
+
+body, h1, h2 {
+  font-family: Helvetica, Sans-serif;
+  color: #2c3e50;
+  margin:0;
+  padding:0;
+  font-weight:300;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 36px;
+  opacity: 0;
+  margin-top: 100px;
+  animation: appear 1s 3s forwards; /*name duration delay animation-fill-direction*/
+}
+
+.container{
+  margin:4em;
+  text-align: center;
+}
+.loader{
+  border: 16px solid #bdc3c7;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  margin-top: 30px;
+  border-top-color: #1abc9c;
+  border-bottom-color: #3498db;
+  border-radius: 50%;
+  animation-name: loader;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-play-state: running;
+
+}
+@keyframes loader {
+  0%{
+    transform: rotate(0deg) scale(1);
+    border-radius: 50%;
+  }
+  25%{
+    border-top-color:  #bdffc4;
+    border-bottom-color: #e8ffc4;
+    border-radius: 35%;
+  }
+  50%{
+    border-top-color: #8fffe0;
+    border-bottom-color: #dedb9c;
+    transform: rotate(360deg) scale(1.1);
+  }
+  75%{
+    border-top-color: #00b280;
+    border-bottom-color: #ccffff;
+    border-radius: 22%;
+  }
+  100%{
+    transform: rotate(720deg) scale(1);
+    border-radius: 50%;
+  }
+}
+@keyframes appear {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
