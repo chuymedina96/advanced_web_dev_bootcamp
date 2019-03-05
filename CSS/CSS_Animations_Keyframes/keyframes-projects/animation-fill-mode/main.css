@@ -1,0 +1,39 @@
+.box{
+  height:100px;
+  width: 1400px;
+  background-color: green;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-top: 50px;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 8px;
+  animation-name: changeColor;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+
+}
+
+.forwards{
+  animation-fill-mode: forwards;
+}
+.backwards{
+  animation-fill-mode: backwards;
+}
+.both{
+  animation-fill-mode: both;
+}
+
+
+
+@keyframes changeColor {
+  0%{
+    background-color: yellow;
+  }
+  100%{
+    background-color: red;
+  }
+}
