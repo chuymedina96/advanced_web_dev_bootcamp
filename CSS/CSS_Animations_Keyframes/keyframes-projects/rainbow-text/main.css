@@ -38,9 +38,10 @@ p{
   animation-iteration-count: infinite;
   animation-delay: 1s;
   animation-duration: 2s;
+  animation-play-state: paused;
 }
 .box:hover{
-  animation-play-state: paused;
+  animation-play-state: running;
 }
 @keyframes slideRight {
   100%{
