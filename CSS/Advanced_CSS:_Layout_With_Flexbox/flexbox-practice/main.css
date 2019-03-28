@@ -1,18 +1,18 @@
 /****
 CONTAINER PROPERTIES
-- flex-direction
+- flex-direction -- row or column
 - justify-content
-- felx-wrap
+- felx-wrap -- ex. wrap
 - align-items
 - align-content
 
 
 FLEX ITEM PROPERTIES
-- order
+- order -- sets the order of the items.
 - FLEX
-- flex-grow
-- flex-shrink
-- flex-basis
+- flex-grow -- grow the item
+- flex-shrink --shrinks the item in container
+- flex-basis -- similar to width and heigh
 - algin-self
 ******/
 
@@ -27,8 +27,10 @@ FLEX ITEM PROPERTIES
   text-align:center;
   font-family: lato;
   font-weight: 300;
+  flex-basis: 250px;
   box-sizing: border-box;
-  width: 300px;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 .box-1 {
   background: #e51400;
@@ -40,12 +42,13 @@ FLEX ITEM PROPERTIES
 }
 .box-3 {
   background: #f0a30a;
-  align-self: flex-start;
   order: 3;
+  flex-shrink: 1;
 }
 .box-4 {
   background: #e3c800;
   order: 3;
+  flex-shrink: 1;
 }
 .box-5 {
   background: #a4c400;
@@ -55,8 +58,7 @@ FLEX ITEM PROPERTIES
 }
 .box-7 {
   background: #00aba9;
-  align-self: flex-end;
-  order: 8;
+
 }
 .box-8 {
   background: #1ba1e2;
@@ -98,6 +100,5 @@ FLEX ITEM PROPERTIES
   display: flex;
   border: 20px solid black;
   flex-direction: row;
-  align-items: center;
 
 }
