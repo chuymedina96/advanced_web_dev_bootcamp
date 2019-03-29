@@ -5,9 +5,29 @@ body{
   margin: 0;
   min-height: 100vh;
 }
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+article{
+  flex-basis: 60%;
+  background: red;
+}
+
+nav{
+  flex-basis: 20%;
+  background: orange;
+  order: -1;
+}
+
+aside{
+  flex-basis: 20%;
+  background: yellow;
+  order: 1;
+}
+
 header, footer{
   background-color: blue;
-}
-main{
-  flex-direction: row;
 }
