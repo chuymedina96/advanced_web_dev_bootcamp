@@ -22,6 +22,7 @@ a{
   color: #fff;
 }
 
+
 a.btn{
   border-radius: 4px;
   text-transform: uppercase;
@@ -198,6 +199,7 @@ header nav li{
 .packages .grid li h4{
   margin-bottom: 20px;
   font-size: 30px
+  color: #fff;
 }
 
 .testimonials .quote{
@@ -205,4 +207,56 @@ header nav li{
   font-weight: 300;
   line-height: 1.5;
   margin: 40px 0 25px;
+}
+
+.contact form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 18px;
+  width: 60%;
+}
+.contact form:hover{
+  animation-name: slide;
+  animation-duration: 20s;
+  animation-delay: 0;
+  animation-play-state: running;
+  animation-timing-function: linear;
+}
+@keyframes slide {
+  25%{
+    width:100%;
+  }
+  50%{
+    width: 100%;
+  }
+  75%{
+    width: 100%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+.contact form .btn{
+  padding: 18px 42px;
+}
+.contact form input{
+  padding: 15px;
+  margin-right: 30px;
+  font-size: 18px;
+  color: #555;
+  flex: 1;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 0;
+    animation: 1s fadein 0.5s forwards;
+    opacity: 0;
+    color: #fff;
 }
