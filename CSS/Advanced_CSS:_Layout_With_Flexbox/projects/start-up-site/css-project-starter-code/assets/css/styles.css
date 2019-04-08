@@ -227,7 +227,7 @@ header nav li{
   font-size: 18px;
   width: 60%;
 }
-
+ /*
 .contact form:hover{
   animation-name: slide;
   animation-duration: 2s;
@@ -250,6 +250,7 @@ header nav li{
     width: 100%;
   }
 }
+*/
 
 .contact form .btn{
   padding: 18px 42px;
@@ -342,6 +343,10 @@ footer p{
 }
 
 @media (max-width: 800px){
+  .contact form .btn{
+    padding: 8px 33px;
+    margin-top: 15px;
+  }
   footer{
       flex-direction: column;
   }
@@ -351,5 +356,8 @@ footer p{
   footer p{
     text-align: center;
     margin-bottom: 20px;
+  }
+  footer ul li {
+    margin: 0 8px;
   }
 }
