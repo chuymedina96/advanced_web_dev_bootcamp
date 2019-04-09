@@ -1,5 +1,5 @@
 function callback(){
-  console.log("Hell from callback");
+  console.log("Hello from callback");
 }
 
 function higherOrder(fn){
