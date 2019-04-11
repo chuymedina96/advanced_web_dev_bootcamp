@@ -47,7 +47,7 @@ var obj = {firstname: "Tim",
 //New Data is not created below, only a copy of the reference
 var referenceCopy = obj;
 
-//STACK EXMAPLE
+//STACK EXAMPLE
 
 function upperCaseFirst(word) {
   return word[0].toUpperCase() + word.slice(1);
