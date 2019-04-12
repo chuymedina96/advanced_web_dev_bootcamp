@@ -48,6 +48,7 @@ var p1 = new Promise(function(resolve, reject){
   }else{
     reject(num);
   }
+});
 
 p1.then(function(result){
   console.log("Success:", result);
