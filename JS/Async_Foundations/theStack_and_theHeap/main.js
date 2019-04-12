@@ -61,7 +61,7 @@ function upperCaseWords(sentence) {
   return words.join(" ");
 }
 
-upperCaseWords("lowercase words");
+upperCaseWords("lowercase words"); //Main function on Stack.
 
 /*
 
