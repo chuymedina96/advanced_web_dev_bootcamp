@@ -56,4 +56,4 @@ setTimeout(function(){
 for (var i = 0; i < 10000000; i++){
   var x = i * 2;
 }
-consolelog("Done with loop");
+console.log("Done with loop");
