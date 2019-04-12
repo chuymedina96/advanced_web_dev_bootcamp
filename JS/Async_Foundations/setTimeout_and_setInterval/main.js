@@ -16,7 +16,7 @@
 function callback(){
   console.log("callback function");
 }
-var delay = 1000; //Delayt is in ms
+var delay = 1000; //Delay is in ms
 
 setTimeout(callback, delay);
 
