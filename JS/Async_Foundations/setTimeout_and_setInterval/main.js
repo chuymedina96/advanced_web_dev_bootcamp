@@ -12,7 +12,7 @@
 */
 
 // setTimeout usage
-/*
+
 function callback(){
   console.log("callback function");
 }
@@ -61,7 +61,7 @@ var intervalId = setInterval(function(){
     clearInterval(intervalId);
   }
 }, 1000);
-*/
+
 
 
 /*Your goal is to implement a function called countDown.
