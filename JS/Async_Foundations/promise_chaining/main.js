@@ -31,7 +31,9 @@ function incCounter(){
   console.log("Counter:", counter);
 }
 
-//Code abover is hard to read expecially when the code gets longer.
+
+
+//Code above is hard to read expecially when the code gets longer.
 // Logic is hard to reason with.
 
 var promise = new Promise(function(resolve, reject){
@@ -40,6 +42,7 @@ var promise = new Promise(function(resolve, reject){
     resolve(randomInt);
   }, 3000);
 });
+
 
 promise.then(function(data){
   console.log("Random integer passed to resolve:", data);
@@ -51,6 +54,7 @@ promise.then(function(data){
 }).then(function(data){
   console.log("random int that was resolved is:", data);
 });
+
 
 //Promise chaining: returning Data.
 
